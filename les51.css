@@ -1,0 +1,842 @@
+@import url(fonts/OpenSans/OpenSans-Medium.ttf);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-active {
+  color: rgb(113, 113, 255);
+}
+.container {
+  width: 90%;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+.menu {
+  text-align: center;
+}
+.menu-link {
+  text-decoration: none;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100px;
+  margin: 0 60px;
+  color: #000203;
+}
+.menu-link:hover {
+  color: blue;
+}
+.main-block {
+  width: 1440px;
+  height: 700px;
+}
+.content {
+  border-radius: 35px;
+  background-color: rgb(208, 208, 208);
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.htmlcss {
+  position: absolute;
+
+  right: 49%;
+  top: 23.33%;
+  bottom: 62.22%;
+}
+
+.htmlcss,
+.company {
+  line-height: 22px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-left: 30px;
+  width: 33%;
+  background: #fefefe;
+  border-radius: 30px;
+}
+.company {
+  position: absolute;
+  left: 54%;
+  right: 3%;
+  top: 23.33%;
+  bottom: 62.22%;
+}
+span {
+  color: grey;
+  font-size: small;
+}
+.description {
+  position: absolute;
+  margin-left: 90px;
+  left: 12.22%;
+  right: 36.94%;
+  top: 41.56%;
+  bottom: 39%;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 20px;
+  background: #fefefe;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.data {
+  font-weight: bold;
+  position: absolute;
+  left: 65%;
+  right: 13%;
+  top: 41.56%;
+  bottom: 12.89%;
+  background: #fefefe;
+  border-radius: 30px;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.data-img {
+  width: 40%;
+  height: 40%;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.team {
+  position: absolute;
+  left: 18%;
+  right: 36.94%;
+  top: 65.56%;
+  bottom: 12.89%;
+  font-weight: bold;
+  background: #fefefe;
+  border-radius: 30px;
+}
+.team-img {
+  width: 130px;
+  height: 140px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.text-team {
+  position: absolute;
+  left: 25%;
+  right: 1%;
+  top: 25%;
+  bottom: 12%;
+}
+.leftbox {
+  position: absolute;
+  width: 105px;
+  height: 420px;
+  left: 125px;
+  top: 210px;
+  background-color: #fefefe;
+  border-radius: 30px;
+}
+.icon1 {
+  position: relative;
+  width: 35px;
+  height: 33px;
+  left: 35px;
+  top: 35px;
+}
+.uil {
+  font-size: 32px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8 {
+  width: 230px;
+  height: 230px;
+  background-color: #fefefe;
+
+  border-radius: 20px;
+}
+
+.small-img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/1.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+}
+.small-img1 {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/22.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+}
+.small-img2 {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/3.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+}
+.small-img3 {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/4.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+}
+.small-img4 {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/5.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+}
+.small-img5 {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/6.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+}
+.small-img6 {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/7.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+}
+.small-img7 {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/8.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+}
+
+.name-people {
+  color: grey;
+  font-size: small;
+  margin-left: 60px;
+}
+.name {
+  padding-left: 20px;
+  color: black;
+  font-weight: bold;
+}
+.menu-active {
+  color: rgb(113, 113, 255);
+}
+
+table,
+th,
+td {
+  text-align: center;
+}
+
+th,
+td {
+  padding: 10px 30px;
+}
+
+table {
+  font-weight: bold;
+  border-collapse: collapse;
+  width: 1000px;
+  height: 400px;
+}
+
+.tr-line:hover {
+  background-color: rgb(228, 228, 252);
+}
+
+tr td:first-child {
+  border-right: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+tr td:last-child {
+  border-left: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+tr td:not(:first-child, :last-child) {
+  border-left: 0px;
+  border-right: 0px;
+}
+
+tr:hover td:first-child {
+  border-color: black;
+  border-right: 0px;
+}
+
+tr:hover td:last-child {
+  border-color: black;
+  border-left: 0px;
+}
+
+tr:hover td:not(:first-child, :last-child) {
+  border-color: black;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
+
+.card1:hover {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card1:hover .name-people {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card1:hover .name {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+
+.card2:hover {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card2:hover .name-people {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card2:hover .name {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card3:hover {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card3:hover .name-people {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card3:hover .name {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+
+.card4:hover {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card4:hover .name-people {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card4:hover .name {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+
+.card5:hover {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card5:hover .name-people {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card5:hover .name {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+
+.card6:hover {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card6:hover .name-people {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card6:hover .name {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card7:hover {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card7:hover .name-people {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card7:hover .name {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+
+.card8:hover {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card8:hover .name-people {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card8:hover .name {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+
+.card1:hover::after {
+  content: "";
+  position: absolute;
+  top: 16%;
+  left: 21%;
+  width: 5%;
+  height: 10%;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  color: lightblue;
+  background-image: url(images/trash-alt1.svg);
+  background-repeat: no-repeat;
+}
+.card2:hover::after {
+  content: "";
+  position: absolute;
+  top: 53%;
+  left: 21%;
+  width: 5%;
+  height: 10%;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  background-image: url(images/trash-alt1.svg);
+  color: lightblue;
+  background-repeat: no-repeat;
+}
+.card3:hover::after {
+  content: "";
+  position: absolute;
+  top: 16%;
+  left: 44%;
+  width: 5%;
+  height: 10%;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  background-image: url(images/trash-alt1.svg);
+  color: lightblue;
+  background-repeat: no-repeat;
+}
+.card4:hover::after {
+  content: "";
+  position: absolute;
+  top: 53%;
+  left: 44%;
+  width: 5%;
+  height: 10%;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  background-image: url(images/trash-alt1.svg);
+  background-repeat: no-repeat;
+  color: lightblue;
+}
+.card5:hover::after {
+  content: "";
+  position: absolute;
+  top: 16%;
+  left: 66%;
+  width: 5%;
+  height: 10%;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  background-image: url(images/trash-alt1.svg);
+  background-repeat: no-repeat;
+  color: lightblue;
+}
+.card6:hover::after {
+  content: "";
+  position: absolute;
+  top: 53%;
+  left: 66%;
+  width: 5%;
+  height: 10%;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  background-image: url(images/trash-alt1.svg);
+  background-repeat: no-repeat;
+  color: lightblue;
+}
+.card7:hover::after {
+  content: "";
+  position: absolute;
+  top: 16%;
+  left: 89%;
+  width: 5%;
+  height: 10%;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  background-image: url(images/trash-alt1.svg);
+  background-repeat: no-repeat;
+  color: lightblue;
+}
+.card8:hover::after {
+  content: "";
+  position: absolute;
+  top: 53%;
+  left: 89%;
+  width: 5%;
+  height: 10%;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  background-image: url(images/trash-alt1.svg);
+  background-repeat: no-repeat;
+  color: lightblue;
+}
+
+.icon1 {
+  position: relative;
+  width: 0px;
+  height: 33px;
+  left: 35px;
+  top: 35px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.icon1::after {
+  content: "";
+  display: block;
+  height: 27px;
+  border-radius: 10px;
+  width: 0px;
+  position: absolute;
+  top: -1px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  z-index: -1;
+}
+
+.icon1:hover::after {
+  content: "Project";
+  color: white;
+  padding-left: 35px;
+  padding-top: 10px;
+  display: block;
+  background-color: rgb(9, 9, 186);
+  width: 70px;
+}
+.icon1:hover .uil {
+  color: white;
+}
+
+.icon2 {
+  position: relative;
+  width: 0px;
+  height: 33px;
+  left: 35px;
+  top: 70px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.icon2::after {
+  content: "";
+  display: block;
+  height: 27px;
+  border-radius: 10px;
+  width: 0px;
+  position: absolute;
+  top: -1px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  z-index: -1;
+}
+.icon2:hover::after {
+  content: "Account";
+  color: white;
+  padding-left: 35px;
+  padding-top: 10px;
+  display: block;
+  background-color: rgb(9, 9, 186);
+  width: 70px;
+}
+.icon2:hover .uil {
+  color: white;
+}
+
+.icon3 {
+  position: relative;
+  width: 0px;
+  height: 33px;
+  left: 35px;
+  top: 110px;
+  cursor: pointer;
+  z-index: 1;
+}
+.icon3::after {
+  content: "";
+  display: block;
+  height: 27px;
+  border-radius: 10px;
+  width: 0px;
+  position: absolute;
+  top: -1px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  z-index: -1;
+}
+.icon3:hover::after {
+  content: "Groups";
+  color: white;
+  padding-left: 35px;
+  padding-top: 10px;
+  display: block;
+  background-color: rgb(9, 9, 186);
+  width: 70px;
+}
+.icon3:hover .uil {
+  color: white;
+}
+
+.icon4 {
+  position: absolute;
+  width: 35px;
+  height: 33px;
+  left: 35px;
+  top: 240px;
+  cursor: pointer;
+  z-index: 1;
+}
+.icon4::after {
+  content: "";
+  display: block;
+  height: 27px;
+  border-radius: 10px;
+  width: 0px;
+  position: absolute;
+  top: -1px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  z-index: -1;
+}
+.icon4:hover::after {
+  content: "Cloud";
+  color: white;
+  padding-left: 35px;
+  padding-top: 10px;
+  display: block;
+  background-color: rgb(9, 9, 186);
+  width: 70px;
+}
+.icon4:hover .uil {
+  color: white;
+}
+
+.icon5 {
+  position: absolute;
+  width: 35px;
+  height: 33px;
+  left: 35px;
+  top: 310px;
+  z-index: 1;
+}
+.icon5::after {
+  content: "";
+  display: block;
+  height: 27px;
+  border-radius: 10px;
+  width: 0px;
+  position: absolute;
+  top: -1px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  z-index: -1;
+}
+.icon5:hover::after {
+  content: "Setting";
+  color: white;
+  padding-left: 35px;
+  padding-top: 10px;
+  display: block;
+  background-color: rgb(9, 9, 186);
+  width: 70px;
+}
+.icon5:hover .uil {
+  color: white;
+}
+.uil-download-alt:hover {
+  color: white;
+}
+
+.storona1 {
+  background-color: rgb(255, 252, 252);
+  width: 45%;
+  height: 95%;
+  position: relative;
+  right: -26%;
+  top: 0;
+  border-radius: 30px;
+}
+
+.andy {
+  position: absolute;
+  font-size: 20px;
+  padding-left: 30px;
+  right: 51%;
+  top: 16%;
+  bottom: 71%;
+  line-height: 22px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-left: 30px;
+  width: 33%;
+  background: #fefefe;
+  border-radius: 30px;
+}
+.A-text {
+  margin-left: 60px;
+}
+
+.storona2 {
+  position: absolute;
+  top: 30%;
+  left: 16%;
+  width: 33%;
+  height: 64%;
+  background-color: rgb(255, 252, 252);
+  border-radius: 30px;
+}
+.inp-pass {
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 90%;
+  height: 40px;
+  border: 2px solid rgb(233, 232, 230);
+}
+input[type="password"]::placeholder {
+  color: rgb(114, 163, 163);
+  font-family: "Open Sans", sans-serif;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.btn-save {
+  color: #fefefe;
+  background-color: rgb(100, 100, 238);
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  margin: 20px 375px;
+  width: 100px;
+  height: 40px;
+  border: 0px;
+}
+
+.btn-save0 {
+  color: #fefefe;
+  background-color: rgb(100, 100, 238);
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  margin: 20px 455px;
+  width: 100px;
+  height: 40px;
+  border: 0px;
+}
+
+.inp-text {
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 92%;
+  height: 40px;
+  border: 2px solid rgb(233, 232, 230);
+}
+input[type="text"]::placeholder {
+  color: rgb(114, 163, 163);
+  font-family: "Open Sans", sans-serif;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+input[type="password"]:focus {
+  outline: 2px solid blue;
+  outline-offset: -1px;
+}
+input[type="text"]:focus {
+  outline: 2px solid blue;
+  outline-offset: -1px;
+}
+
+.inp-text2 {
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 92%;
+  height: 70px;
+  border: 2px solid rgb(233, 232, 230);
+  resize: none;
+}
+
+textarea:focus {
+  outline: 2px solid blue;
+  outline-offset: -1px;
+}
+textarea::placeholder {
+  color: rgb(114, 163, 163);
+  font-family: "Open Sans", sans-serif;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.inp-text3 {
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 45%;
+  height: 40px;
+  border: 2px solid rgb(233, 232, 230);
+}
+.inp-text4 {
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 45%;
+  height: 40px;
+  border: 2px solid rgb(233, 232, 230);
+}
+
+.inp-text6 {
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 100%;
+  height: 40px;
+  border: 2px solid rgb(233, 232, 230);
+}
+
+.inp-city-postal {
+  display: block;
+  position: absolute;
+  width: 45%;
+  height: 40%;
+  bottom: 50px;
+  right: 47px;
+}
